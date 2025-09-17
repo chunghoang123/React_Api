@@ -6,14 +6,9 @@
       "status": false
     },
     {
-      "id": 3,
-      "name": "Giặt quần áo",
-      "status": true
-    },
-    {
       "id": 4,
       "name": "Nấu cơm",
-      "status": false
+      "status": true
     },
     {
       "id": 5,
@@ -22,8 +17,13 @@
     },
     {
       "name": "trang gaay",
-      "status": false,
+      "status": true,
       "id": 6
+    },
+    {
+      "name": "dă",
+      "status": false,
+      "id": 7
     }
   ]
 }
