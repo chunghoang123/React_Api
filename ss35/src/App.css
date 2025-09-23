@@ -1,0 +1,139 @@
+* {
+  padding: 0.3%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.singularComps div {
+  border: 1px solid rgb(232, 231, 231);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.203);
+  border-radius: 7px;
+  margin-right: 3%;
+  display: inline-flex;
+  padding: 2%;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1%;
+  justify-content: center;
+  align-items: center;
+}
+.gridContainer {
+  border: none !important;
+  box-shadow: none !important;
+  width: 100%;
+}
+.directionC {
+  flex-direction: column;
+}
+.directionR {
+  flex-direction: row !important;
+}
+.gridContainer .col {
+  background-color: rgb(225, 110, 103);
+  text-align: center;
+  width: 80%;
+  line-height: 30px;
+}
+.menuContainer{
+  display: inline-flex;
+  flex-direction: column;
+  color: white;
+  background-color: #041533;
+  padding: 10px;
+  gap: 20px;
+}
+.menuContainer div{
+ display: flex;
+ flex-direction: row;
+ gap: 8px;
+  white-space: nowrap;  
+  align-items: center;  
+  transition: all 0.3s ease;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8f8;
+  padding: 30px;
+}
+
+.login-form {
+  background: #fff;
+  padding: 25px 30px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  width: 300px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  text-align: left;
+  margin: 8px 0 5px;
+  font-size: 14px;
+}
+
+.login-form input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-form input:focus {
+  border-color: #007bff;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background: #0056b3;
+}
+.user-container {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  width: 280px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.user-container p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.user-container button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.user-container button:hover {
+  background: #f2f2f2;
+}
