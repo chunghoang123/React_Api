@@ -12,7 +12,8 @@ const store = configureStore({
   reducer: {
     count: counterReducer,
     random: randomReducer,
-    theme: themeReducer,
+    // theme: themeReducer,
+    theme:themeReducer,
     grid: gridReducer,
     menubar: menubarReducer,
     language: languageSlice,
